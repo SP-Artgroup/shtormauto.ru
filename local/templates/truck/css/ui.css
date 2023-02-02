@@ -1,0 +1,14 @@
+.user-area {}
+
+.user-area ol {
+    list-style: decimal;
+}
+
+.user-area ul {
+    list-style: outside;
+}
+
+.user-area ol,
+.user-area ul {
+    list-style-position: inside;
+}

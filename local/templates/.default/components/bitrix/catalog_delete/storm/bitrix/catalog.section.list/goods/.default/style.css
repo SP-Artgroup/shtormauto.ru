@@ -1,0 +1,19 @@
+.catalog-section-list a{
+  text-decoration: none;
+}
+.catalog-section-list h2{
+  font-weight: normal;
+}
+.catalog-section-list .brand-wrap{
+  float: left;
+  width: 140px;
+  height: 90px;
+  background: url('images/brand-wrap.png') top left no-repeat;
+  margin-left: 20px;
+}
+.catalog-section-list .brand-wrap.noml{
+  margin-left: 0;
+}
+.catalog-section-list h1{
+margin: 15px 0 20px 0;
+}

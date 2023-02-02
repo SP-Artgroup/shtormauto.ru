@@ -1,0 +1,6 @@
+.shops-list {}
+
+.shops-list .shop-item {
+    display: block;
+    padding: 5px 0 5px 10px;
+}

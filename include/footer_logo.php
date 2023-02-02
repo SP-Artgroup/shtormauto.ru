@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH?>/images/footer/logo.png" alt="" class="footer__logo">

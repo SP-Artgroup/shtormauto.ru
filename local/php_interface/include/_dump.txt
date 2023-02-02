@@ -1,0 +1,1528 @@
+Bitrix\Sale\PropertyValueCollection::__set_state(array(
+   'order' => 
+  Bitrix\Sale\Order::__set_state(array(
+     'isNew' => false,
+     'isSaving' => false,
+     'discount' => NULL,
+     'isStartField' => NULL,
+     'isMeaningfulField' => false,
+     'isOnlyMathAction' => NULL,
+     'isClone' => false,
+     'printedChecks' => 
+    array (
+    ),
+     'calculatedFields' => 
+    Bitrix\Sale\Internals\Fields::__set_state(array(
+       'values' => 
+      array (
+      ),
+       'changedValues' => 
+      array (
+      ),
+       'originalValues' => 
+      array (
+      ),
+       'isClone' => false,
+    )),
+     'basketCollection' => NULL,
+     'shipmentCollection' => NULL,
+     'paymentCollection' => NULL,
+     'propertyCollection' => NULL,
+     'tax' => NULL,
+     'internalId' => 0,
+     'calculateType' => 'C',
+     'fields' => 
+    Bitrix\Sale\Internals\Fields::__set_state(array(
+       'values' => 
+      array (
+        'ID' => '1428',
+        'LID' => 's1',
+        'ACCOUNT_NUMBER' => 'B73B1',
+        'TRACKING_NUMBER' => NULL,
+        'PAY_SYSTEM_ID' => '34',
+        'DELIVERY_ID' => '20',
+        'DATE_INSERT' => 
+        Bitrix\Main\Type\DateTime::__set_state(array(
+           'value' => 
+          DateTime::__set_state(array(
+             'date' => '2018-10-01 22:02:40.000000',
+             'timezone_type' => 3,
+             'timezone' => 'Europe/Moscow',
+          )),
+        )),
+        'DATE_UPDATE' => 
+        Bitrix\Main\Type\DateTime::__set_state(array(
+           'value' => 
+          DateTime::__set_state(array(
+             'date' => '2018-10-01 22:02:40.000000',
+             'timezone_type' => 3,
+             'timezone' => 'Europe/Moscow',
+          )),
+        )),
+        'PERSON_TYPE_ID' => '1',
+        'USER_ID' => '1687',
+        'PAYED' => 'N',
+        'DATE_PAYED' => NULL,
+        'EMP_PAYED_ID' => NULL,
+        'DEDUCTED' => 'N',
+        'DATE_DEDUCTED' => NULL,
+        'EMP_DEDUCTED_ID' => NULL,
+        'REASON_UNDO_DEDUCTED' => NULL,
+        'STATUS_ID' => 'N',
+        'DATE_STATUS' => 
+        Bitrix\Main\Type\DateTime::__set_state(array(
+           'value' => 
+          DateTime::__set_state(array(
+             'date' => '2018-10-01 22:02:39.000000',
+             'timezone_type' => 3,
+             'timezone' => 'Europe/Moscow',
+          )),
+        )),
+        'EMP_STATUS_ID' => '1687',
+        'MARKED' => 'N',
+        'DATE_MARKED' => NULL,
+        'EMP_MARKED_ID' => NULL,
+        'REASON_MARKED' => NULL,
+        'PRICE_DELIVERY' => '0.0000',
+        'ALLOW_DELIVERY' => 'N',
+        'DATE_ALLOW_DELIVERY' => NULL,
+        'EMP_ALLOW_DELIVERY_ID' => NULL,
+        'RESERVED' => 'N',
+        'PRICE' => '2200.0000',
+        'CURRENCY' => 'RUB',
+        'DISCOUNT_VALUE' => '0.0000',
+        'TAX_VALUE' => '0.00',
+        'SUM_PAID' => '0.00',
+        'USER_DESCRIPTION' => '',
+        'PAY_VOUCHER_NUM' => NULL,
+        'PAY_VOUCHER_DATE' => NULL,
+        'ADDITIONAL_INFO' => NULL,
+        'COMMENTS' => NULL,
+        'COMPANY_ID' => '0',
+        'CREATED_BY' => '1687',
+        'RESPONSIBLE_ID' => NULL,
+        'STAT_GID' => 'BITRIX_SM.ODQ1OC43NzgwLk4wLi4uczE=',
+        'DATE_PAY_BEFORE' => NULL,
+        'DATE_BILL' => NULL,
+        'IS_RECURRING' => 'N',
+        'RECURRING_ID' => NULL,
+        'LOCKED_BY' => NULL,
+        'DATE_LOCK' => NULL,
+        'RECOUNT_FLAG' => 'Y',
+        'AFFILIATE_ID' => NULL,
+        'DELIVERY_DOC_NUM' => NULL,
+        'DELIVERY_DOC_DATE' => NULL,
+        'UPDATED_1C' => 'N',
+        'ORDER_TOPIC' => NULL,
+        'XML_ID' => NULL,
+        'ID_1C' => NULL,
+        'VERSION_1C' => NULL,
+        'VERSION' => '0',
+        'EXTERNAL_ORDER' => 'N',
+        'STORE_ID' => NULL,
+        'CANCELED' => 'N',
+        'EMP_CANCELED_ID' => NULL,
+        'DATE_CANCELED' => NULL,
+        'REASON_CANCELED' => NULL,
+        'BX_USER_ID' => NULL,
+        'RUNNING' => 'N',
+      ),
+       'changedValues' => 
+      array (
+      ),
+       'originalValues' => 
+      array (
+      ),
+       'isClone' => false,
+    )),
+     'eventName' => NULL,
+  )),
+   'attributes' => 
+  array (
+    'IS_EMAIL' => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '2',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Почта',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'Y',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '500',
+        'USER_PROPS' => 'Y',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '1',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'Y',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'Y',
+        'CODE' => 'EMAIL',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '40',
+      ),
+       'savedValue' => 'test@test.ru',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 3,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9794',
+          'NAME' => 'Почта',
+          'VALUE' => 'test@test.ru',
+          'CODE' => 'EMAIL',
+          'ORDER_PROPS_ID' => '2',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    'IS_PAYER' => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '1',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Ф.И.О.',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'Y',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '400',
+        'USER_PROPS' => 'Y',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '1',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'Y',
+        'IS_PAYER' => 'Y',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'Y',
+        'CODE' => 'FIO',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '40',
+      ),
+       'savedValue' => 'Валерий',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 2,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9793',
+          'NAME' => 'Ф.И.О.',
+          'VALUE' => 'Валерий',
+          'CODE' => 'FIO',
+          'ORDER_PROPS_ID' => '1',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    'IS_LOCATION' => NULL,
+    'IS_LOCATION4TAX' => NULL,
+    'IS_PROFILE_NAME' => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '1',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Ф.И.О.',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'Y',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '400',
+        'USER_PROPS' => 'Y',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '1',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'Y',
+        'IS_PAYER' => 'Y',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'Y',
+        'CODE' => 'FIO',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '40',
+      ),
+       'savedValue' => 'Валерий',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 2,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9793',
+          'NAME' => 'Ф.И.О.',
+          'VALUE' => 'Валерий',
+          'CODE' => 'FIO',
+          'ORDER_PROPS_ID' => '1',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    'IS_ZIP' => NULL,
+    'IS_PHONE' => NULL,
+    'IS_ADDRESS' => NULL,
+  ),
+   'propertyGroupMap' => 
+  array (
+    1 => 
+    array (
+      0 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '28',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Дата доставки',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'N',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '200',
+          'USER_PROPS' => 'N',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '1',
+          'DESCRIPTION' => 'Желаемая дата доставки, указанная пользователем',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'N',
+          'CODE' => 'DELIVERY_DATE',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '',
+        ),
+         'savedValue' => '',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 0,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9791',
+            'NAME' => 'Дата доставки',
+            'VALUE' => '',
+            'CODE' => 'DELIVERY_DATE',
+            'ORDER_PROPS_ID' => '28',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+      1 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '30',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Примечание',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'N',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '300',
+          'USER_PROPS' => 'N',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '1',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'N',
+          'CODE' => 'notice',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '',
+        ),
+         'savedValue' => 'примечание',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 1,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9792',
+            'NAME' => 'Примечание',
+            'VALUE' => 'примечание',
+            'CODE' => 'notice',
+            'ORDER_PROPS_ID' => '30',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+      2 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '1',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Ф.И.О.',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'Y',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '400',
+          'USER_PROPS' => 'Y',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '1',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'Y',
+          'IS_PAYER' => 'Y',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'Y',
+          'CODE' => 'FIO',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '40',
+        ),
+         'savedValue' => 'Валерий',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 2,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9793',
+            'NAME' => 'Ф.И.О.',
+            'VALUE' => 'Валерий',
+            'CODE' => 'FIO',
+            'ORDER_PROPS_ID' => '1',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+      3 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '2',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Почта',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'Y',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '500',
+          'USER_PROPS' => 'Y',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '1',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'Y',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'Y',
+          'CODE' => 'EMAIL',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '40',
+        ),
+         'savedValue' => 'test@test.ru',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 3,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9794',
+            'NAME' => 'Почта',
+            'VALUE' => 'test@test.ru',
+            'CODE' => 'EMAIL',
+            'ORDER_PROPS_ID' => '2',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+      4 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '3',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Телефон',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'Y',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '600',
+          'USER_PROPS' => 'Y',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '1',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'N',
+          'CODE' => 'PHONE',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '',
+        ),
+         'savedValue' => '+7 (914) 209-49-63',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 4,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9795',
+            'NAME' => 'Телефон',
+            'VALUE' => '+7 (914) 209-49-63',
+            'CODE' => 'PHONE',
+            'ORDER_PROPS_ID' => '3',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+    ),
+    2 => 
+    array (
+      0 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '5',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Город',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'Y',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '700',
+          'USER_PROPS' => 'Y',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '2',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'Y',
+          'CODE' => 'CITY',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '40',
+        ),
+         'savedValue' => 'Благовещенск',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 5,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9796',
+            'NAME' => 'Город',
+            'VALUE' => 'Благовещенск',
+            'CODE' => 'CITY',
+            'ORDER_PROPS_ID' => '5',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+      1 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '20',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Магазин',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'Y',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '800',
+          'USER_PROPS' => 'N',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '2',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'Y',
+          'CODE' => 'SHOP',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '',
+        ),
+         'savedValue' => '104',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 6,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9797',
+            'NAME' => 'Магазин',
+            'VALUE' => '104',
+            'CODE' => 'SHOP',
+            'ORDER_PROPS_ID' => '20',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+    ),
+    5 => 
+    array (
+      0 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '24',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Бонусная карта',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'N',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '900',
+          'USER_PROPS' => 'N',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '5',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'N',
+          'CODE' => 'BONUS_CARD_NUMBER',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '',
+        ),
+         'savedValue' => '',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 7,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9798',
+            'NAME' => 'Бонусная карта',
+            'VALUE' => '',
+            'CODE' => 'BONUS_CARD_NUMBER',
+            'ORDER_PROPS_ID' => '24',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+      1 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '22',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Сервис',
+          'TYPE' => 'ENUM',
+          'REQUIRED' => 'N',
+          'DEFAULT_VALUE' => 'Y',
+          'SORT' => '1000',
+          'USER_PROPS' => 'N',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '5',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'Y',
+          'CODE' => 'SERVICE',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MULTIELEMENT' => 'Y',
+          'OPTIONS' => 
+          array (
+            'Y' => 'Да, меня интересует сервис',
+            'N' => 'Нет, спасибо',
+          ),
+        ),
+         'savedValue' => 'Y',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 8,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9799',
+            'NAME' => 'Сервис',
+            'VALUE' => 'Y',
+            'CODE' => 'SERVICE',
+            'ORDER_PROPS_ID' => '22',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+      2 => 
+      Bitrix\Sale\PropertyValue::__set_state(array(
+         'property' => 
+        array (
+          'ID' => '32',
+          'PERSON_TYPE_ID' => '1',
+          'NAME' => 'Комментарий',
+          'TYPE' => 'STRING',
+          'REQUIRED' => 'N',
+          'DEFAULT_VALUE' => '',
+          'SORT' => '1100',
+          'USER_PROPS' => 'N',
+          'IS_LOCATION' => 'N',
+          'PROPS_GROUP_ID' => '5',
+          'DESCRIPTION' => '',
+          'IS_EMAIL' => 'N',
+          'IS_PROFILE_NAME' => 'N',
+          'IS_PAYER' => 'N',
+          'IS_LOCATION4TAX' => 'N',
+          'IS_FILTERED' => 'N',
+          'CODE' => 'COMMENTS',
+          'IS_ZIP' => 'N',
+          'IS_PHONE' => 'N',
+          'IS_ADDRESS' => 'N',
+          'ACTIVE' => 'Y',
+          'UTIL' => 'N',
+          'INPUT_FIELD_LOCATION' => '0',
+          'MULTIPLE' => 'N',
+          'MINLENGTH' => '',
+          'MAXLENGTH' => '',
+          'PATTERN' => '',
+          'MULTILINE' => 'N',
+          'SIZE' => '',
+        ),
+         'savedValue' => 'комментарий',
+         'deletedValue' => NULL,
+         'collection' => NULL,
+         'internalIndex' => 9,
+         'isClone' => false,
+         'fields' => 
+        Bitrix\Sale\Internals\Fields::__set_state(array(
+           'values' => 
+          array (
+            'ID' => '9800',
+            'NAME' => 'Комментарий',
+            'VALUE' => 'комментарий',
+            'CODE' => 'COMMENTS',
+            'ORDER_PROPS_ID' => '32',
+          ),
+           'changedValues' => 
+          array (
+          ),
+           'originalValues' => 
+          array (
+          ),
+           'isClone' => false,
+        )),
+         'eventName' => NULL,
+      )),
+    ),
+  ),
+   'propertyGroups' => 
+  array (
+  ),
+   'index' => 9,
+   'isClone' => false,
+   'anyItemDeleted' => false,
+   'collection' => 
+  array (
+    0 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '28',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Дата доставки',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'N',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '200',
+        'USER_PROPS' => 'N',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '1',
+        'DESCRIPTION' => 'Желаемая дата доставки, указанная пользователем',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'N',
+        'CODE' => 'DELIVERY_DATE',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '',
+      ),
+       'savedValue' => '',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 0,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9791',
+          'NAME' => 'Дата доставки',
+          'VALUE' => '',
+          'CODE' => 'DELIVERY_DATE',
+          'ORDER_PROPS_ID' => '28',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    1 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '30',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Примечание',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'N',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '300',
+        'USER_PROPS' => 'N',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '1',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'N',
+        'CODE' => 'notice',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '',
+      ),
+       'savedValue' => 'примечание',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 1,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9792',
+          'NAME' => 'Примечание',
+          'VALUE' => 'примечание',
+          'CODE' => 'notice',
+          'ORDER_PROPS_ID' => '30',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    2 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '1',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Ф.И.О.',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'Y',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '400',
+        'USER_PROPS' => 'Y',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '1',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'Y',
+        'IS_PAYER' => 'Y',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'Y',
+        'CODE' => 'FIO',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '40',
+      ),
+       'savedValue' => 'Валерий',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 2,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9793',
+          'NAME' => 'Ф.И.О.',
+          'VALUE' => 'Валерий',
+          'CODE' => 'FIO',
+          'ORDER_PROPS_ID' => '1',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    3 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '2',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Почта',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'Y',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '500',
+        'USER_PROPS' => 'Y',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '1',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'Y',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'Y',
+        'CODE' => 'EMAIL',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '40',
+      ),
+       'savedValue' => 'test@test.ru',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 3,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9794',
+          'NAME' => 'Почта',
+          'VALUE' => 'test@test.ru',
+          'CODE' => 'EMAIL',
+          'ORDER_PROPS_ID' => '2',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    4 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '3',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Телефон',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'Y',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '600',
+        'USER_PROPS' => 'Y',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '1',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'N',
+        'CODE' => 'PHONE',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '',
+      ),
+       'savedValue' => '+7 (914) 209-49-63',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 4,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9795',
+          'NAME' => 'Телефон',
+          'VALUE' => '+7 (914) 209-49-63',
+          'CODE' => 'PHONE',
+          'ORDER_PROPS_ID' => '3',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    5 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '5',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Город',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'Y',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '700',
+        'USER_PROPS' => 'Y',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '2',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'Y',
+        'CODE' => 'CITY',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '40',
+      ),
+       'savedValue' => 'Благовещенск',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 5,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9796',
+          'NAME' => 'Город',
+          'VALUE' => 'Благовещенск',
+          'CODE' => 'CITY',
+          'ORDER_PROPS_ID' => '5',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    6 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '20',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Магазин',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'Y',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '800',
+        'USER_PROPS' => 'N',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '2',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'Y',
+        'CODE' => 'SHOP',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '',
+      ),
+       'savedValue' => '104',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 6,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9797',
+          'NAME' => 'Магазин',
+          'VALUE' => '104',
+          'CODE' => 'SHOP',
+          'ORDER_PROPS_ID' => '20',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    7 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '24',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Бонусная карта',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'N',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '900',
+        'USER_PROPS' => 'N',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '5',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'N',
+        'CODE' => 'BONUS_CARD_NUMBER',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '',
+      ),
+       'savedValue' => '',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 7,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9798',
+          'NAME' => 'Бонусная карта',
+          'VALUE' => '',
+          'CODE' => 'BONUS_CARD_NUMBER',
+          'ORDER_PROPS_ID' => '24',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    8 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '22',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Сервис',
+        'TYPE' => 'ENUM',
+        'REQUIRED' => 'N',
+        'DEFAULT_VALUE' => 'Y',
+        'SORT' => '1000',
+        'USER_PROPS' => 'N',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '5',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'Y',
+        'CODE' => 'SERVICE',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MULTIELEMENT' => 'Y',
+        'OPTIONS' => 
+        array (
+          'Y' => 'Да, меня интересует сервис',
+          'N' => 'Нет, спасибо',
+        ),
+      ),
+       'savedValue' => 'Y',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 8,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9799',
+          'NAME' => 'Сервис',
+          'VALUE' => 'Y',
+          'CODE' => 'SERVICE',
+          'ORDER_PROPS_ID' => '22',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+    9 => 
+    Bitrix\Sale\PropertyValue::__set_state(array(
+       'property' => 
+      array (
+        'ID' => '32',
+        'PERSON_TYPE_ID' => '1',
+        'NAME' => 'Комментарий',
+        'TYPE' => 'STRING',
+        'REQUIRED' => 'N',
+        'DEFAULT_VALUE' => '',
+        'SORT' => '1100',
+        'USER_PROPS' => 'N',
+        'IS_LOCATION' => 'N',
+        'PROPS_GROUP_ID' => '5',
+        'DESCRIPTION' => '',
+        'IS_EMAIL' => 'N',
+        'IS_PROFILE_NAME' => 'N',
+        'IS_PAYER' => 'N',
+        'IS_LOCATION4TAX' => 'N',
+        'IS_FILTERED' => 'N',
+        'CODE' => 'COMMENTS',
+        'IS_ZIP' => 'N',
+        'IS_PHONE' => 'N',
+        'IS_ADDRESS' => 'N',
+        'ACTIVE' => 'Y',
+        'UTIL' => 'N',
+        'INPUT_FIELD_LOCATION' => '0',
+        'MULTIPLE' => 'N',
+        'MINLENGTH' => '',
+        'MAXLENGTH' => '',
+        'PATTERN' => '',
+        'MULTILINE' => 'N',
+        'SIZE' => '',
+      ),
+       'savedValue' => 'комментарий',
+       'deletedValue' => NULL,
+       'collection' => NULL,
+       'internalIndex' => 9,
+       'isClone' => false,
+       'fields' => 
+      Bitrix\Sale\Internals\Fields::__set_state(array(
+         'values' => 
+        array (
+          'ID' => '9800',
+          'NAME' => 'Комментарий',
+          'VALUE' => 'комментарий',
+          'CODE' => 'COMMENTS',
+          'ORDER_PROPS_ID' => '32',
+        ),
+         'changedValues' => 
+        array (
+        ),
+         'originalValues' => 
+        array (
+        ),
+         'isClone' => false,
+      )),
+       'eventName' => NULL,
+    )),
+  ),
+))

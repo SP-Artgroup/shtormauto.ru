@@ -1,0 +1,14 @@
+.search-disc {
+    background-color: #d4070e;
+}
+
+.search-disc .btn1 {
+    background-color: #333;
+}
+
+@media (min-width: 768px) {
+
+    .disc-tires .fix-padding {
+        padding-right: 15px;
+    }
+}

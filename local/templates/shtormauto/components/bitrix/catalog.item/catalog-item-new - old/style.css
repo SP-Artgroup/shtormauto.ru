@@ -1,0 +1,10 @@
+.main-show-block {
+    text-align: center;
+}
+.show-block {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: red !important;
+    background: #fdf3f3;
+    margin-top: 5px;
+}

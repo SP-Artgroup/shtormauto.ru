@@ -1,0 +1,13 @@
+.breadcrumb {
+    padding: 0;
+    background: none;
+}
+
+.breadcrumb-navigation li {
+	display:inline;
+    color: #666666;
+}
+
+.breadcrumb-navigation .delim {
+  padding: 0 10px;
+}

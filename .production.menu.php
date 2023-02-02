@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Goodride", 
+		"http://goodridetire.ru/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Bridgestone", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"West Lake", 
+		"http://goodridetire.ru/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Nankang", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Cooper", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

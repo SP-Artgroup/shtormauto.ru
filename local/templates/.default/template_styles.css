@@ -1,0 +1,224 @@
+html, body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
+}
+.top-line{
+  width: 100%;
+  height: 40px;
+  background: url('images/top-line.png') 0 0;
+}
+.global-wrap{
+  width: 100%;
+  background: url('images/top-gr.png') 0 0 repeat-x;
+}
+.wrap{
+	position: relative;
+  width: 960px;
+  margin: 0 auto;
+  font-family: Tahoma;
+  font-size: 12px;
+  line-height: 14px;
+}
+.wrap a{
+  color: #db4b40;
+}
+div.city_ip{
+	position: absolute;
+	top: 0px; left: 0px;
+	width: auto; height: 40px;
+	padding: 13px 0;
+	color: #fff;
+	font-size: 16px;
+}
+.header{
+  padding-top: 20px;
+}
+.head-phone{
+  width: 250px;
+  float: left;
+}
+.phone-block{
+  font-size: 12px;
+  color: #d0231f;
+  float: left;
+}
+.phone-block .phone{
+  color: #000;
+  font-size: 24px;
+  line-height: 18px;
+  background: url('images/phone-icon1.png') bottom left no-repeat;
+  font-weight: bold;
+  float: left;
+  padding-left: 15px;
+  height: 24px;
+  margin-top: 5px;
+}
+.phone-block .phone .code{
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: normal;
+  float: left;
+  padding-right: 5px;
+}
+.header-logo{
+	position: relative;
+	margin: 0px 0px 10px 230px;
+}
+.top-menu-block-l{
+  width: 960px;
+  height: 103px;
+  background: url('images/menu-block-l.png') top left no-repeat;
+ /* padding: 0 28px; */
+  margin: 10px -19px 0px -19px;
+  float: left;
+}
+.top-menu-block-l.index{
+  margin-bottom: -15px;
+}
+.top-menu-block-r{
+  width: 942px;
+  height: 103px;
+  background: url('images/menu-block-r.png') top right no-repeat;
+  float: left;
+  padding: 0 28px;
+}
+.top-menu-block-content{
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: url('images/menu-block-rep.png') top left repeat-x;
+}
+.top-menu-block-content a.storm-button{
+  float: right;
+  width: 174px;
+  height: 52px;
+  background: url('images/storm-but.png') top left no-repeat;
+  margin-top: 9px;
+}
+
+div.breadcrumb{
+	position: relative;
+	width: 100%; height: 40px;
+	line-height: 40px;
+}
+
+.col{
+  width: 230px;
+  float: left;
+  padding-bottom: 120px;
+  position: relative;
+  margin-top: 20px;
+  z-index: 200;
+}
+.col.right{
+  margin-top: 20px;
+}
+.content-col{
+  width: 460px;
+  float: left;
+  margin: 20px 20px 0 20px;
+  padding-bottom: 200px;
+}
+.content-col h1{
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+  color: #db4b40;
+}
+.truck a{
+  float: left;
+  font-size: 17px;
+  line-height: 26px;
+  width: 220px;
+  padding-left: 10px;
+  color: #db4b40;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 2px solid #cfcfcf;
+  background: url('images/truck-ar.png') 0px 11px no-repeat;
+}
+.foot-line{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 178px;
+  background: url('images/foot-line.png') left bottom repeat-x;
+  color: #ccc;
+}
+.foot-auto{
+  width: 100%;
+  height: 108px;
+  background: url('images/bottom-auto.png') center top no-repeat;
+}
+.footer{
+  padding-top: 20px;
+  position: relative;
+  z-index: 300;
+}
+
+.footer .left-block{
+    float: left;
+}
+.footer .right-block{
+  float: right;
+}
+/*grey block styles*/
+.grey-block{
+  width: 230px;
+  background: #e6e6e6;
+}
+.grey-block .grey-block-title{
+  height: 40px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 40px;
+  font-size: 16px;
+  background: url('images/grey-block-head.png') top left no-repeat;
+}
+.grey-block .grey-block-content{
+  background: url('images/grey-block-bot.png') bottom left no-repeat;
+  padding: 10px;
+}
+
+.subscribe-form{
+  color: #262626;
+  line-height: 16px;
+}
+.subscribe-form h1{
+  font-size: 18px;
+  margin: 10px 0 15px 0;
+}
+.subscribe-form input.text{
+  width: 200px;
+  background: url('images/input-bg.png') top left no-repeat;
+  padding: 0 10px;
+  border: none;
+  height: 30px;
+  color: #333;
+  margin-top: 10px;
+}
+.subscribe-form input.button{
+  width: 153px;
+  height: 30px;
+  background: url('images/but-bg.png') top left no-repeat;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  line-height: 16px;
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+.sidebar-news-list {}
+
+.sidebar-news-list .show_all_news {
+    position: relative;
+    float: right;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.sidebar-news-list .show_all_news:hover {
+    color: #db4b40;
+}
+
+.sidebar-news-list .new-items-img-block .small-img-border {
+    padding: 10px 7px;
+}

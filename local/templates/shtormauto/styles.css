@@ -1,0 +1,321 @@
+h1{
+	line-height: 24px;
+}
+.text_center {text-align: center;}
+.content_copyright ul {margin: 0 0 0 30px;}
+.content_copyright ul li {padding:0 0 10px 0px;list-style: disc;}
+
+
+.content_copyright {line-height: 1.4;}
+.content_copyright ol {margin: 0 0 0 30px;padding: 0;}
+.content_copyright ol > li {margin:0;padding:0 0 7px 0px;list-style: decimal;}
+ul.disc{
+	padding-left: 20px;
+    margin-bottom: 10px;
+}
+ul.disc li{
+	list-style: disc !important;
+}
+.reg_error{
+    display: inline-block;
+    color: #e81d1e;
+}
+/* страница "Бонусная программа" */
+.bonus-program{
+	border-radius: 10px;
+    background-color: #fff;
+    padding: 60px 96px 100px 96px;
+}
+.bonus-program__heading {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: #282f36;
+    margin: 0 0 60px;
+}
+.bonus-program__section-heading {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: normal;
+    color: #282f36;
+    margin: 0 0 24px;
+}
+.bonus-program__section-content {
+    font-size: 20px;
+    font-family: 'Lato';
+    line-height: 30px;
+    max-width: 657px;
+}
+
+.bonus-program-form{
+	margin-bottom: 100px;
+}
+
+.bonus-program-form.form-container {
+    margin-top: 40px;
+}
+.bonus-program-form__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.bonus-program-form__wrapper>.form-group {
+    margin-top: 0;
+}
+.form-container .form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 32px;
+}
+.form-group {
+    font-family: "Lato", sans-serif;
+}
+.form-container .form-group>.form-input {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+}
+.bonus-program-form__wrapper .bonus_submit, 
+.bonus-program-form__wrapper .form-input {
+    font-size: 14px;
+}
+.form-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #fff;
+    border: solid 1px rgba(40,47,54,0.15);
+    border-radius: 5px;
+    outline: none;
+    color: rgba(40,47,54,0.8);
+}
+.form-container .form-input, 
+.form-container .form-select>select {
+    border: solid 1px #93979a;
+    width: 100%;
+    font-size: 14px;
+    color: #282f36;
+}
+.bonus-program-form__wrapper .form-label {
+    font-size: 14px;
+}
+.form-label {
+    display: block;
+    color: #282f36;
+    margin-bottom: 5px;
+    line-height: 1.43;
+}
+.form-container .form-label {
+    text-transform: uppercase;
+    color: #93979a;
+    margin-bottom: 8px;
+    line-height: 1;
+}
+.bonus-program__section+.bonus-program__section {
+    margin-top: 60px;
+}
+.bonus-program__section--first+.bonus-program__section {
+    padding-top: 40px;
+    border-top: 1px solid rgba(147,151,154,0.2);
+    margin-top: 0;
+}
+.bonus-program-result {
+    font-size: 25px;
+    line-height: 36px;
+    color: #282f36;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.bonus_submit{
+	display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    font-family: "Circe", sans-serif;
+    cursor: pointer;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 20px;
+	background-color: #282f36;
+}
+@media (min-width: 768px){
+	.bonus-program-form__wrapper .bonus_submit, 
+	.bonus-program-form__wrapper .form-input {
+	    width: 270px;
+	    max-width: 100%;
+	}
+	.bonus-program-form__wrapper>.bonus_submit {
+	    margin-left: 48px;
+	}
+	.bonus-program-form__wrapper .bonus_submit, 
+	.bonus-program-form__wrapper .form-input {
+	    width: 270px;
+	    max-width: 100%;
+	}
+}
+@media (max-width: 991px){
+	.form-container .form-label {
+	    font-size: 14px;
+	}
+}
+@media (max-width: 767px){
+	.bonus-program__heading {
+	    margin: 0 0 40px;
+	    line-height: 42px;
+	}
+	.bonus-program-form.form-container {
+		margin-top: 38px;
+	}
+	.bonus-program-form__wrapper {
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	    -webkit-box-align: start;
+	    -ms-flex-align: start;
+	    align-items: flex-start;
+	}
+	.bonus-program-form__wrapper>.form-group {
+	    width: 100%;
+	}
+	.bonus-program-form__wrapper .bonus_submit, 
+	.bonus-program-form__wrapper .form-input {
+	    width: 100%;
+	}
+	.bonus-program-form__wrapper>.bonus_submit {
+	    margin-top: 24px;
+	}
+	.bonus-program {
+	    padding: 32px 24px 60px 24px;
+	}
+}
+@media (max-width: 374px){
+	.bonus-program {
+	    padding: 32px 16px 60px 16px;
+	}
+	.bonus-program-form {
+	    margin-bottom: 40px;
+	}
+}
+/*ссылка в футере "Покупай со сбербанком"*/
+.link-sberbank{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+
+}
+.link-sberbank img{
+    max-width: 150px;
+    height: auto;
+}
+/*стикер "В кредит"*/
+.product-detail .sticker-buy-credit{
+    left: 10px;
+    right: auto;
+}
+.sticker-buy-credit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.sticker-buy-credit a{
+    position: relative;
+    display: inline-block;
+}
+.sticker-buy-credit i{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url('images/sberbank_credit.png') no-repeat center; 
+    background-size: contain;
+}
+.sticker-buy-credit .desc-about-credit{
+    display: none;
+}
+@media(min-width: 768px){
+    .product-detail .sticker-buy-credit:hover .desc-about-credit{
+        left: 55px;
+        right: auto;
+    }
+    .product-detail .sticker-buy-credit:hover .desc-about-credit:before{
+        content: "";
+        position: absolute;
+        left: -12px;
+        right: auto;
+        border: 6px solid transparent; 
+        border-right: 6px solid #dfe0e1;
+    }
+    .product-detail .sticker-buy-credit:hover .desc-about-credit:after{
+        content: "";
+        position: absolute;
+        left: -11px;
+        right: auto;
+        border: 6px solid transparent; 
+        border-right: 6px solid #fff;
+    }
+    .sticker-buy-credit:hover .desc-about-credit{
+        position: absolute;
+        left: 60px;
+        top: 0;
+        display: flex;
+        align-items: center;
+        width: 170px;
+        color: #93979a;
+        background: #fff;
+        padding: 6px 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        box-shadow: -1px 1px 3px 2px #dfe0e1;
+        z-index: 1;
+    }
+    .sticker-buy-credit:hover .desc-about-credit:before{
+        content: "";
+        position: absolute;
+        top: 19px;
+        left: -12px;
+        border: 6px solid transparent; 
+        border-right: 6px solid #dfe0e1;
+    }
+    .sticker-buy-credit:hover .desc-about-credit:after{
+        content: "";
+        position: absolute;
+        top: 19px;
+        left: -11px;
+        border: 6px solid transparent; 
+        border-right: 6px solid #fff;
+    }
+}
+@media(max-width: 767px){
+    .sticker-buy-credit i{
+        width: 36px;
+        height: 36px;
+    }
+}
+
+.i-24{
+	width: 30px;
+	height: 30px;
+	background-image: url("/local/templates/shtormauto/images/icons/i-24.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}

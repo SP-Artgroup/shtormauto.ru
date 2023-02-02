@@ -1,0 +1,4 @@
+.product-slider .product-item-container,
+.product-slider .product-unit {
+    height: inherit;
+}

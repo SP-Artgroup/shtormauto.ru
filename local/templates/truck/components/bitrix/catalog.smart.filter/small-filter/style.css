@@ -1,0 +1,116 @@
+.towarselect {
+    padding: 21px 0;
+}
+
+.towarselect .caption {
+    text-align: center;
+    font-family: 'Roboto-Bold';
+    color: #ebebeb;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.towarselect .caption i {
+    display: none;
+}
+
+.towarselect .select {
+    display: block;
+    margin: 5px auto;
+}
+
+.search-tires {
+    background-color: #333333;
+}
+
+.search-tires .btn1 {
+    display: block;
+    background-color: #d4070e;
+    margin: 24px auto;
+}
+.search-tires .btn1:disabled{
+    background-color: #d4070e !important;
+    opacity: 0.6;
+    pointer-events: none;
+}
+.search-disc .btn1:disabled{
+    background-color: #333 !important;
+}
+
+.search-tires .btn1:hover {
+    background-color: #eb3d43;
+}
+
+.search-disc .btn1:hover {
+    background-color: #676262;
+}
+
+.search-tires .link {
+    text-align: center;
+}
+
+.search-tires .link a {
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+
+    .towarselect {
+        padding: 8px 0;
+    }
+
+    .towarselect .caption {
+        position: relative;
+        text-align: left;
+        padding: 0 15px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .towarselect .caption i {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    div.search-tires-mob {
+        height: 50px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        position: absolute;
+        top: -60px;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .search-tires.active {
+        height: auto;
+    }
+
+    div.search-disc-mob {
+        height: 50px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        position: absolute;
+        top: -60px;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .search-disk.active {
+        height: auto;
+    }
+
+    .truck-disc-bg .disc-tires {
+        position: relative;
+    }
+
+    .search-disc {
+        order: 0;
+    }
+}

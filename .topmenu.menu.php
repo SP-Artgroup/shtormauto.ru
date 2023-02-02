@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Магазины", 
+		"#shop", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Шины", 
+		"#production", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оптовикам", 
+		"#service", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

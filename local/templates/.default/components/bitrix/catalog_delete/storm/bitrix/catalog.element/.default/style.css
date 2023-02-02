@@ -1,0 +1,60 @@
+div.catalog-element table td.properties{
+  padding-left: 15px;
+  font-size: 14px;
+  color: #666666;
+  font-weight: normal;
+}
+div.catalog-element table td.properties div.property{
+  float: left;
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+div.catalog-element table td.properties span.name{
+  color: #000;
+}
+div.catalog-element div.price-block{
+  font-size: 20px;
+  margin-top: 15px;
+}
+div.catalog-element div.price-block span.catalog-price{
+  color: #000;
+}
+div.more-photo{
+  float: left;
+  margin: 5px 0 0 5px;
+}
+div.catalog-element div.more-photo.nml{
+  margin-left: 0;
+}
+div.catalog-element{
+  color: #666666;
+}
+
+div.catalog-element h1{
+  font-size: 16px;
+  margin: 5px 0 15px 0;
+  font-weight: normal;
+}
+div.catalog-element .description-title{
+  font-size: 16px;
+  color: #000;
+}
+div.catalog-element table.offers{
+  border-collapse: collapse;
+}
+div.catalog-element table.offers th{
+  background: #ebebeb;
+  border: 1px solid #bdbdbd;
+}
+div.catalog-element table.offers td{
+  border: 1px solid #bdbdbd;
+}
+div.catalog-element div.main-img{
+  position: relative;
+}
+div.catalog-element div.new-icon{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}

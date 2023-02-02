@@ -1,0 +1,11 @@
+.citysearch {
+    padding: 0;
+}
+
+.citysearch .select-styled:after {
+    right: initial;
+}
+
+.citysearch .select {
+    height: 30px;
+}

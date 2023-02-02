@@ -1,0 +1,7 @@
+.ask-question-form {
+    text-align: center;
+}
+
+.modal-call.ask-question-form .input {
+    width: auto;
+}

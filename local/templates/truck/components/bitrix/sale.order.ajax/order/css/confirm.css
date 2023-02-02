@@ -1,0 +1,33 @@
+.confirm-page {
+
+}
+
+.confirm-page .confirm-title {
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+.confirm-page .confirm-desc {
+    max-width: 450px;
+    line-height: 1.3;
+}
+
+.confirm-page .buy-btn {
+    width: 180px;
+    margin: 20px 0;
+}
+
+.confirm-page .sale_order_full_table {
+    font-size: 13px;
+}
+
+#order_form_div .sale_order_full_table td.ps_logo {
+    text-align: left;
+    vertical-align: top;
+}
+
+#order_form_div .sale_order_full_table .ps_logo .pay_name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+}

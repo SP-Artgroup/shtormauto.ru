@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+<trackList>
+	<track>
+		<title>сентябрь</title>
+		<creator></creator>
+		<location>/bitrix/templates/Pole Position сентябрь 2014, 10 сек.mpg</location>
+		<image></image>
+		<duration>10</duration>
+	</track>
+</trackList>
+</playlist>

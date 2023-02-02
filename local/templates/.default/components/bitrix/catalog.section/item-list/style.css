@@ -1,0 +1,28 @@
+div.catalog-section {
+	overflow: hidden;
+}
+div.catalog-section .catalog-item {
+	color: #6e6e6e;
+	font-size: 11px;
+	line-height: 14px;
+	margin: 15px 0 0 20px;
+	float: left;
+	width: 140px;
+}
+div.catalog-section .catalog-item:nth-child(3n+1) {
+	clear: both;
+	margin-left: 0;
+}
+div.catalog-section .catalog-item .img-wrap {
+	width: 140px;
+	height: 120px;
+}
+div.catalog-section .catalog-item a {
+	color: #db4b40;
+	font-size: 13px;
+	line-height: 18px;
+}
+div.catalog-section .catalog-price {
+	font-weight: bold;
+	color: #000;
+}

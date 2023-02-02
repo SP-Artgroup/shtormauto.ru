@@ -1,0 +1,49 @@
+.main-show-block {
+    text-align: center;
+}
+.show-block {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: red !important;
+    background: #fdf3f3;
+    margin-top: 5px;
+}
+
+.product-item__price .main-price {
+    font-weight: bold;
+}
+
+.product-item__price span {
+    font-family: Circe, sans-serif;
+    display: block;
+}
+
+.product-item__price .price-decript {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.product-item__price .price-without-descount {
+    font-size: 24px;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+.sticker-buy-credit, .product-marks--new {
+	z-index: 1;
+}
+
+.item-label {
+	position: relative;
+}
+
+.item-label .labels-container {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+}
+
+.item-label .labels-container .label {
+	width: 35px;
+}

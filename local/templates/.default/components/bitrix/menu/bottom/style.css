@@ -1,0 +1,33 @@
+div.blue-tabs-menu
+{
+	float:left;
+	width:100%;
+	postion: relative;
+	z-index: 300;
+}
+div.blue-tabs-menu ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+div.blue-tabs-menu li
+{
+	display:inline;
+	margin:0;
+	padding:0;
+    color: #ccc;
+    float:left;
+}
+
+div.blue-tabs-menu a
+{
+	float:left;
+	margin: 0 5px;
+	text-decoration:none;
+    color: #ccc;
+}
+div.blue-tabs-menu a:hover{
+  color: #db4b40;
+}

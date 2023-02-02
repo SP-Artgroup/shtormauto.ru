@@ -1,0 +1,10 @@
+.truck-tires .fix-filter-padding {
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+
+    .truck-tires .fix-padding {
+        padding-left: 15px;
+    }
+}

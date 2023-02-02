@@ -1,0 +1,74 @@
+div.top-menu
+{
+	float:left;
+	font-size: 16px;
+	line-height:normal;
+}
+div.top-menu  ul li{
+  float: left;
+  padding: 0;
+  position: relative;
+}
+div.top-menu  ul li.delim{
+  padding: 0;
+  background: url('images/menu-delim.png') top left no-repeat;
+  width: 2px;
+  height: 71px;
+}
+
+div.top-menu  ul li a.root-item{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 71px;
+  padding: 0 21px;
+}
+
+div.menu-clear-left
+{
+	clear:left;
+}
+div.top-menu div.level2items{
+  position: absolute;
+  width: 202px;
+  left: 0;
+  top: 72px;
+  padding: 10px 0 0 0;
+  display: none;
+  background: url('images/ul-top.png') top left no-repeat;
+  float: left;
+  z-index: 500;
+}
+div.top-menu div.level2items ul{
+  padding: 0 0 5px 0;
+  margin: 0;
+  background: url('images/ul-bot.png') bottom left no-repeat;
+  float: left;
+}
+div.top-menu  ul li:hover a{
+  text-decoration: underline;
+}
+div.top-menu  ul li:hover .level2items{
+  display: block;
+}
+
+div.top-menu .level2items ul li{
+  float: left;
+  width: 202px;
+  padding: 0 5px 10px 10px;
+  margin: 0;
+  background: url('images/ul-rep.png') top left repeat-y;
+}
+div.top-menu .level2items ul li a{
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  width: 182px;
+  text-transform: none;
+  line-height: normal;
+  text-decoration: none;
+  float: left;
+}
+div.top-menu .level2items ul li a:hover{
+  text-decoration: underline;
+}

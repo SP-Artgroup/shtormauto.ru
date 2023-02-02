@@ -1,0 +1,128 @@
+.header-slider {
+    /*height: 493px;*/
+    overflow: hidden;
+}
+
+.header-slider .slick-prev {
+    left: initial;
+    right: 55px;
+    z-index: 9;
+    background-color: red;
+    color: white;
+    font-size: initial;
+}
+
+.header-slider .slick-next {
+    right: 0;
+    z-index: 9;
+    background-color: red;
+    color: white;
+    font-size: initial;
+}
+
+.header-slider .slick-prev,
+.header-slider .slick-next {
+    top: 90%;
+}
+
+.header-slider .container-btn {
+    width: 1170px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 36px;
+}
+
+.header-slider .slick-prev:hover,
+.header-slider .slick-next:hover {
+    background-color: #bf060d;
+}
+
+.header-slider .slide {
+    position: relative;
+    min-height: 493px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-slider .slide .header-slider-text {
+    width: 561px;
+    border: 10px solid #aeaeae;
+    background-color: rgba(230, 230, 230, 0.91);
+    margin-left: auto;
+    padding: 49px;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.header-slider .slide .header-slider-text h3 {
+    font-family: 'Roboto-Black';
+}
+
+.header-slider .slide .header-slider-text .link {
+    background-color: #d4070e;
+    margin: 18px auto 0 auto;
+}
+
+.header-slider .slide .header-slider-text .link a {
+    font-size: 14px;
+    color: #ffffff;
+    display: block;
+    line-height: 41px;
+}
+
+.header-slider .slide .header-slider-text .link:hover {
+    background-color: #e1555b;
+}
+
+@media (max-width: 1199px) {
+
+    .header-slider .container-btn {
+        width: 970px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .header-slider .container-btn {
+        width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header-slider .slide {
+        min-height: 216px;
+    }
+
+    .header-slider .slide .header-slider-text h3 {
+        font-size: 10px;
+    }
+
+    .header-slider .slide .header-slider-text {
+        width: 247px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .header-slider .slide .header-slider-text .text {
+        display: none;
+    }
+
+    .header-slider .container-btn {
+        width: 100%;
+        left: initial;
+        right: 15px;
+        bottom: 20px;
+    }
+
+    .header-slider .slide .header-slider-text .link {
+        margin: 5px auto 0 auto;;
+    }
+
+    .header-slider .slick-prev {
+        right: 35px;
+    }
+}

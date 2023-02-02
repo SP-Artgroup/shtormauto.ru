@@ -1,0 +1,232 @@
+/* basket-table */
+.basket-table {
+    width: 100%;
+}
+
+.basket-table__row {
+    border-bottom: 1px solid #dadada;
+}
+
+.basket-table__row .basket__row_header {}
+
+.basket-table__cell {
+    padding: 15px 0;
+    height: 1px;
+    vertical-align: middle;
+}
+
+.basket-table__inner-cell {
+    height: 100%;
+    border-right: 1px solid #dadada;
+}
+
+.basket-table__inner-cell_flex-row {
+    display: flex;
+}
+
+.basket-table__inner-cell_flex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.basket-table__cell_header {
+    font: 16px/24px Roboto-Bold, sans-serif;
+    color: #999;
+    text-transform: uppercase;
+    border-right: none;
+}
+
+.basket-table__cell_product-info {
+    padding-left: 0;
+}
+
+.basket-table__cell_quantity {
+
+}
+
+.basket-table__cell_price {
+
+}
+
+.basket-table__cell_sum {
+
+}
+
+.basket-table__cell_sum .basket-table__inner-cell {
+    border-right: none;
+}
+
+.basket-table__product-image {
+    width: 150px;
+    height: 115px;
+    border: 1px solid #dadada;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.basket-table__product-info {
+    padding-left: 13px;
+}
+
+.basket-table__product-name {
+    font: 14px/20px Roboto-Bold, sans-serif;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+
+.basket-table__product-name a {
+    color: #333;
+    text-decoration: none;
+}
+
+.basket-table__product_shop {
+    font: 13px/20px Roboto, sans-serif;
+    color: #333;
+}
+
+.basket-table__remove {
+    display: inline-block;
+    font: 13px Roboto, sans-serif;
+    color: #d4070e;
+    cursor: pointer;
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+}
+
+.basket-table__price {
+    font-family: Roboto, sans-serif;
+    color: #999;
+}
+
+.basket-table__price_old {
+    text-decoration: line-through;
+}
+
+/* basket-total */
+
+.basket-total {
+    margin-top: 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basket-total__checkout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0 !important;
+}
+
+.basket-total__sum-title {
+    color: #999;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.basket-total__sum {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.basket-total__old-sum {
+    font-size: 18px;
+}
+
+/* coupon */
+
+.coupon {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    background-color: #333;
+}
+
+.coupon__input-box {
+    display: flex;
+}
+
+.coupon__input-wrapper {
+    width: 100%;
+}
+
+.coupon__input {
+    font: 13px Roboto, sans-serif;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 15px;
+    color: #999;
+    padding: 12px 10px 12px 50px;
+    width: 100%;
+}
+
+.coupon__label {
+    display: block;
+    font: 13px/20px Roboto, sans-serif;
+    color: #999;
+    text-decoration: underline;
+    width: 160px;
+    padding-left: 18px;
+}
+
+@media (max-width: 768px) {
+
+    .basket-table__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .basket-table__cell {
+        height: auto;
+    }
+
+    .basket-table__inner-cell {
+        border: none;
+    }
+
+    .basket-table__cell_quantity {
+        width: 50%;
+    }
+
+    .basket-table__cell_quantity .basket-table__inner-cell {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .basket-table__cell_quantity .basket-table__remove {
+        margin-left: 10px;
+    }
+
+    .basket-table__cell_product-info {
+        width: 100%;
+    }
+
+    .coupon__input-box {
+        display: block;
+        text-align: center;
+    }
+
+    .coupon__label {
+        width: auto;
+        padding: 10px 0;
+    }
+
+    .total__checkout {
+        padding: 10px
+    }
+
+    .basket__row_header {
+        display: none;
+    }
+
+    .basket-total__checkout {
+        padding: 15px 10px 20px;
+    }
+}

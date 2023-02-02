@@ -1,0 +1,15 @@
+.catalog-container {
+	width: 100%;
+    padding-bottom: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+
+    .catalog-container {
+        padding-bottom: 0;
+    }
+}

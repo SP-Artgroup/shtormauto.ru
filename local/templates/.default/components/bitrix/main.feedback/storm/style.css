@@ -1,0 +1,67 @@
+div.mfeedback {
+	margin-top: 20px;
+}
+div.mf-name input, div.mf-email input {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	background: url('images/input-bg.png') top left no-repeat;
+	border: none;
+	padding: 0 10px;
+	color: #333;
+	margin-bottom: 10px;
+	float: left;
+	font-family: Tahoma;
+}
+div.mf-message textarea {
+	width: 440px;
+	height: 120px;
+	font-size: 12px;
+	line-height: 16px;
+	background: url('images/textarea-bg.png') top left no-repeat;
+	border: none;
+	padding: 5px 10px;
+	color: #333;
+	resize: none;
+	float: left;
+	font-family: Tahoma;
+}
+div.mfeedback input.submit {
+	width: 153px;
+	height: 30px;
+	border: none;
+	background: url('images/fos-send.png') top left no-repeat;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+}
+div.mf-ok-text {
+	color:green;
+	font-weight:bold;
+	padding-bottom: 1em;
+}
+div.mf-name input.default, div.mf-email input.default, div.mf-message textarea.default {
+	color: #c7c7c7;
+}
+div.feedback-title{
+	color: #262626;
+	font-size: 16px;
+	margin-bottom: 15px;
+	float: left;
+}
+@media all and (max-width: 1024px) {
+div.mf-name input, div.mf-email input {
+	width: 220px;
+}
+div.mf-message textarea {
+	width: 460px;
+	height: 130px;
+}
+}
+@media all and (max-width: 490px) {
+div.mf-message textarea {
+	width: 100%;
+	background: url('images/textarea-bg-l.png') top left no-repeat, url('images/textarea-bg-r.png') top right no-repeat, url('images/textarea-bg-c.png') repeat-x;
+}
+}

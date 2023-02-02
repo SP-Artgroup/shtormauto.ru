@@ -1,0 +1,8 @@
+.footer-container .our-shopes .one:last-child {
+    padding-bottom: 0px;
+    border: none;
+
+}
+.footer-container .our-shopes .two:first-child {
+    padding-top: 0px;
+}

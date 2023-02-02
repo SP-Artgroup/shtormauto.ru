@@ -1,0 +1,1 @@
+<a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/images/logo.svg" itemprop="image" alt="ШтормАвто. Сеть магазинов." title="ШтормАвто. Сеть магазинов."></a>

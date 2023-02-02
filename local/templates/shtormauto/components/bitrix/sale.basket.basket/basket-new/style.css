@@ -1,0 +1,136 @@
+.cart_page .nt_table .zag2,
+.cart_page .nt_table .zag4 {
+    min-width: 120px;
+}
+
+.cart_page .nt_table .zag6 {
+    width: 200px;
+}
+
+.cart_page .nt_table .name {
+    margin: 10px 0 0 0;
+}
+
+.cart_page .nt_table .nt_table_item > div {
+    padding: 15px 10px;
+    vertical-align: top;
+}
+
+.cart_page .nt_table .img-wrap {
+    width: 90px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 10px 10px;
+}
+
+.cart_page .nt_table .img-wrap img {
+    width: 100%;
+}
+
+.cart_page .nt_table .quan_form {
+    position: relative;
+}
+
+.cart_page .nt_table .quan_form .buy-error-message {
+    width: 160px;
+    bottom: 10px;
+    left: -40px;
+}
+
+.order-coupon__input {
+    vertical-align: middle;
+}
+
+.order-coupon__add,
+.order-coupon__remove {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid rgba(40, 47, 54, 0.15);
+    cursor: pointer;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.order-coupon__add:hover,
+.order-coupon__remove:hover {
+    background-color: #f7f5f5;
+}
+
+.order-coupon__add {
+    position: relative;
+    color: #28a745;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+    padding: 0px 8px 0px 25px;
+}
+.order-coupon__add:before{
+    content: "+";
+    position: absolute;
+    top: 2px;
+    left: 8px;
+}
+
+.order-coupon__remove {
+    color: #d4070e;
+    height: 25px;
+    width: 25px;
+    line-height: 23px;
+    font-size: 19px;
+}
+
+.order-coupon__entered {
+    color: #28a745;
+    vertical-align: middle;
+}
+
+.order-coupon__error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+}
+
+.js-add-discount{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.t-discount-check a {
+    color: red;
+    text-decoration: underline;
+}
+
+.js-add-discount+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #FAFAFA;
+    border: 1px solid #DADCE0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+    margin-right: 10px;
+    position: relative;
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+.js-add-discount:checked+label::before {
+    background-image: url("./img/check.svg");
+}
+
+@media(max-width:767px){
+    .order-coupon__add:before{
+        left: 8px;
+    }
+}

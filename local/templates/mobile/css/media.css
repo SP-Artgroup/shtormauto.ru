@@ -1,0 +1,43 @@
+/* ----------- iPad mini ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      width:1024px;
+}
+/* ----------- iPad 3 and 4 ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      width:1024px;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      width:480px;
+}
+/* ----------- iPhone 5 and 5S ----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      width:568px;
+}
+/* ----------- iPhone 6 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      width:667px;
+}
+/* ----------- iPhone 6+ ----------- */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      width:736px;
+}

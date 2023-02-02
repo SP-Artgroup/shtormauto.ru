@@ -1,0 +1,67 @@
+.mobile-banner{
+	font-family: 'Circe';
+font-style: normal;
+background: #FFFFFF;
+border-radius: 8px;
+line-height: 30px;
+padding: 15px;
+margin: 5px 0;
+}
+
+.header-banner {
+text-align: center;
+font-weight: 700;
+font-size: 19px;
+line-height: 130%;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 0 auto;
+padding-bottom: 0px;
+max-width: 240px;
+}
+
+.mob-banner-button {
+	
+margin: 0 20%;
+height: 54px;
+background: #EA3137;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.mob-banner-mobile {
+	margin: 0 18%;
+}
+
+.mob-banner-button a {
+	height: 54px;
+position: relative;
+
+margin: 0 auto;
+width: 100%;
+display: block;
+text-align: center;
+font-weight: 500;
+-webkit-tap-highlight-color: transparent; - убирает подсветку
+}
+
+.mob-banner-button:hover{
+	 filter: brightness(80%);
+}
+
+.mob-banner-button:active{
+	 filter: brightness(65%);
+	 -webkit-tap-highlight-color: transparent; - убирает подсветку
+}
+
+.mob-banner-button a span {
+	/*vertical-align: sub;*/
+ 
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 22%;
+  right: 0;
+}
+}

@@ -1,0 +1,667 @@
+body{
+    font-size: 15px;
+}
+.city-list.city-change{
+    display: flex;
+    flex: none;
+    align-items: center;
+}
+.city-change__toggle:hover, .city-change__toggle:focus{
+    display: inline-block;
+    color: #d4070e;
+    margin-left: 4px;
+    line-height: 1;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+.city-change__toggle2{
+    display: inline-block;
+    color: #d4070e;
+    margin-left: 4px;
+    line-height: 1;
+    border-bottom: 1px dashed;
+}
+.categories-sidebar__link_noparent{
+    padding: 8px 0px 8px 43px;
+}
+.store-list{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: solid 1px rgba(40,47,54,0.15);
+    color: rgba(40,47,54,0.4);
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 1.43;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+}
+.product-item__wrapper{
+    overflow: unset !important;
+}
+
+.header-basket a:hover, .header-basket a:focus, .header-basket a:active{
+    text-decoration: none;
+}
+.btn-white:hover, .btn-white:active, .btn-white:focus{
+    color: #282f36;
+}
+.counter__plus:hover, .counter__plus:active, .counter__plus:focus{
+    color: rgba(40,47,54,0.8);
+}
+a.btn.btn-denim-blue{
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 40px;
+}
+.auth a{
+    font-size: 18px;
+}
+.bx-filter-block,
+.bx-filter-parameters-box-container{
+    height: 100%;
+}
+.bx-filter-select-container,
+.bx-filter-checkbox-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+}
+.bx_filter_select_popup ul{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: rgba(40,47,54,0.4);
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 1.43;
+    padding: 0 27px 0 15px;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    list-style: none;
+}
+.bx_filter_select_popup ul li label{
+    cursor: pointer;
+}
+.bx_filter_select_block,
+.bx_filter_checkbox_block{
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: solid 1px rgba(40,47,54,0.15);
+    color: rgba(40,47,54,0.4);
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 2.43;
+    padding: 0 27px 0 15px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    margin-top: auto;
+}
+.bx_filter_select_block.no-padding,
+.bx_filter_checkbox_block.no-padding{
+    padding: 0;
+}
+.bx_filter_checkbox_block {
+    position: relative;
+}
+.bx_filter_checkbox_block  span.selected{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #282f36;
+    padding: 0 27px 0 15px;
+    overflow: hidden;
+}
+.bx_filter_checkbox_block > span:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 12px;
+    width: 10px;
+    height: 10px;
+    background-image: url("../images/icons/i-arrow-bottom.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bx_filter_checkbox_block > div{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    color: rgba(40,47,54,0.4);
+    background-color: #fff;
+    border: solid 1px rgba(40,47,54,0.15);
+    border-radius: 5px;
+    overflow-y: auto;
+    z-index: 1;
+}
+.bx_filter_checkbox_block input{
+    display: none;
+}
+.bx_filter_checkbox_block label{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: #282f36;
+    padding: 0 5px 0 30px;
+}
+.bx_filter_checkbox_block label:before{
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px rgba(40,47,54,0.15);
+}
+.bx_filter_checkbox_block input:checked + label{
+    color: #D4070E;
+    background: rgba(212, 7, 14, .1);
+}
+.bx_filter_checkbox_block input:checked + label:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 11px;
+    width: 10px;
+    height: 10px;
+    color: rgba(40, 47, 54, .8);
+    background-image: url("../images/icons/i-arrow-bottom.svg");
+}
+
+.bx_filter_select_block select{
+    width: 100%;
+    height: auto;
+    line-height: 38px;
+    color: rgba(40, 47, 54, .8);
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    padding: 0 27px 0 15px;
+}
+.bx_filter_select_block:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 12px;
+    width: 10px;
+    height: 10px;
+    background-image: url(../images/icons/i-arrow-bottom.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.error_auth_form{
+    color: red;
+    padding-top: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.form-slider__inputs{
+    justify-content: space-between;
+}
+.form-slider__input{
+    padding-left: 20px;
+}
+.form-slider__input-wrapper .rubl{
+    position: absolute;
+    left: 8px;
+    font-size: 17px;
+}
+.categories-sidebar__list{
+    list-style: none;
+}
+.categories-sidebar__list a:hover{
+    text-decoration: none;
+    color:#000;
+}
+.categories-sidebar__link.active:hover, .categories-sidebar__link.active:focus{
+    outline: none;
+    text-decoration: none;
+    color:#d4070e;
+}
+.bx_filter_popup_result {
+    display: none !important;
+}
+.bx-filter-parameters-box {
+    width: 45%;
+}
+/*.form-group .bx-filter-parameters-box,
+.filter-item--mototire .bx-filter-parameters-box,
+.filter-item--catalog.filter-item--tire .bx-filter-parameters-box{
+    width: 100%;
+}*/
+.error{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*
+*Track
+*
+*/
+.filter-item__form .bx-ui-slider-track {
+    position: relative;
+    height: 5px;
+    background-color: rgb(233, 234, 235);
+}
+.filter-item__form .bx-ui-slider-part {
+    position: absolute;
+    top: -6px;
+    display:none;
+    /*	width: 1px;
+            height: 17px;
+            background: #a2bfc7;*/
+}
+.filter-item__form .bx-ui-slider-part.p1 {
+    left: -1px;
+}
+.filter-item__form .bx-ui-slider-part.p2 {
+    left: 25%;
+}
+.filter-item__form .bx-ui-slider-part.p3 {
+    left: 50%;
+}
+.filter-item__form .bx-ui-slider-part.p4 {
+    left: 75%;
+}
+.filter-item__form .bx-ui-slider-part.p5 {
+    right: -1px;
+}
+.filter-item__form .bx-ui-slider-part span {
+    font-size: 11px;
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    display: block;
+    width: 100px;
+    margin-left: -50px;
+    text-align: center;
+    color: #000;
+}
+.filter-item__form .bx-ui-slider-part.p2 span,
+.filter-item__form .bx-ui-slider-part.p3 span,
+.filter-item__form .bx-ui-slider-part.p4 span {
+    color: #6b8086;
+}
+.filter-item__form .bx-ui-slider-range,
+.filter-item__form .bx-ui-slider-pricebar,
+.filter-item__form .bx-ui-slider-pricebar-vd,
+.filter-item__form .bx-ui-slider-pricebar-vn,
+.filter-item__form .bx-ui-slider-pricebar-v {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.filter-item__form .bx-ui-slider-pricebar {
+    z-index: 4;
+}
+.filter-item__form .bx-ui-slider-pricebar-vd {
+    z-index: 1;
+    background-color: red;
+}
+.filter-item__form .bx-ui-slider-pricebar-vn {
+    z-index: 2;
+}
+.filter-item__form .bx-ui-slider-pricebar-v {
+    z-index: 3;
+}
+.filter-item__form .bx-ui-slider-handle {
+    position: absolute;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(147,151,154,0.5);
+    box-shadow: 0 4px 6px 0 rgba(147,151,154,0.5);
+    outline: none;
+    top: -6px;
+    width:15px;
+    height:15px;
+    z-index: 4;
+}
+.filter-item__form .bx-ui-slider-handle:hover {
+    -webkit-cursor: grab;
+    -ms-cursor: grab;
+    -o-cursor: grab;
+    cursor: grab;
+}
+.filter-item__form .bx-ui-slider-handle:active {
+    -webkit-cursor: grabbing;
+    -ms-cursor: grabbing;
+    -o-cursor: grabbing;
+    cursor: grabbing;
+}
+.filter-item__form .bx-ui-slider-handle.left {
+    left: 0;
+    margin-left: -10px;
+}
+.filter-item__form .bx-ui-slider-handle.right {
+    right: 0;
+    margin-right: -10px;
+}
+
+.pagination a.dots {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background-color: #fff;
+    padding: 10px 15px;
+    color: rgba(40,47,54,0.8);
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.product-detail-buy .catalog-element-store-list {
+    margin-top: 0px;
+    width: 50%;
+}
+.product-detail-buy .catalog-element-store-list .current-store{
+    max-width:90%;
+}
+.product-detail-buy .catalog-element-store-list .store-list{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.breadcrumbs__list{
+    flex-wrap: wrap;
+}
+.additional-products{
+    width:100%;
+}
+.show-all-products{
+    width: 100%;
+}
+.product-item__title{
+    overflow: hidden;
+}
+.form-select:after{
+    z-index: -1;
+}
+.content-form-body--basket-step-2 .form-select:after,
+.news-list .form-select:after,
+.form-select.filter-item__select-type:after,
+.tyre-and-wheel .form-select:after{
+    z-index: 1 !important;
+}
+.buy-error-message {
+    display: none;
+    background: #fff;
+    border: 1px solid #db4b40;
+    color: #db4b40;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 1px 1px 3px 0px #9b9696;
+}
+.basket-full .buy-error-message,
+.product-item__buy .buy-error-message{
+    position: absolute;
+    left: 0;
+    bottom: 42px;
+}
+.counter{
+    position: relative;
+}
+.tile-item__img {
+    max-height: 310px;
+    overflow: hidden;
+}
+.news-detail-image img{
+    width: 100%;
+}
+.pagination_news{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 100%;
+}
+.pagination_news .load_more{
+    display: none;
+}
+.breadcrumbs{
+    padding-bottom: 30px;
+}
+.categories-sidebar__link_noparent{
+    display: block;
+}
+.advert-banner-vertical{
+    height: 95%;
+}
+.basket-preview{
+    max-height: 560px;
+    overflow-y: auto;
+}
+.new-basket-small{
+    height: 100%;
+}
+.logo__wrapper img, 
+.responsive-menu-header__logo img{
+    max-width: 148px;
+}
+.payment-link{
+    text-align: center;
+}
+.payment-link a{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    font-family: "Circe", sans-serif;
+    cursor: pointer;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 20px;
+    background-color: #282f36;
+    padding: 12px 60px;
+    margin-top: 10px;
+}
+.catalog-sort, .no-element{
+    display: none;
+}
+.no-element{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+.profile-file-upload-block{
+    padding-left: 20px;
+}
+a.catalog-sort__link.current {
+    color: #000;
+}
+.modal-auth__restore-pass {
+    display: inline-block;
+    margin-top: 12px;
+    border-bottom: 1px solid;
+    color: #3a405b;
+}
+.form-container .form-group{
+        margin-top: 22px;
+}
+.modal-auth__signup-block {
+    border-top: 1px solid rgba(147,151,154,0.2);
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.modal-auth__signup-block-description {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #3a405b;
+}
+.modal-auth .btn:last-child {
+    margin-top: 10px;
+}
+.modal-auth .btn {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+#modal-registration-ok .modal__header{
+    justify-content: center;
+}
+#modal-registration-ok .text-ok{
+    text-align: center;
+}
+.order-coupon{
+    padding-top: 20px;
+}
+.order-coupon input{
+    height: 40px;
+    border: 1px solid rgba(40,47,54,0.15);
+    background-color: #fff;
+    color: rgba(40,47,54,0.8);
+    font-size: 18px;
+}
+.product-detail{
+    width: 100%;
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+    .product-item__buy-select .store-list {
+        border-radius: 20px;
+    }
+}
+@media (max-width: 374px){
+    .city-title {
+        display: none;
+    }
+}
+@media all and (max-width: 767px){
+    .filter-item--tire, 
+    .filter-item--disk,
+    .filter-item--mototire,
+    .filter-item--akb {
+        width: 100%;
+    }
+    .catalog-sort__item:nth-child(2){
+        display: none;
+    }
+    .catalog-sort__item.dropdown{
+        display: list-item;
+    }
+    .filter-item__sizes {
+        flex-wrap: wrap;
+    }
+}
+@media all and (max-width: 991px) {
+    div.city_ip {
+        width: 100% !important;
+    }
+    .city-list.city-change{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .catalog-pagination {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .catalog-pagination .btn {
+        margin-bottom: 16px;
+    }
+    .phone {
+        margin-left: 0px;
+    }
+    .catalog-sort__item:nth-child(2){
+        margin-left: 24px;
+    }
+}
+@media (min-width: 992px), (max-width: 374px){
+    .store-list {
+        border-radius: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+@media (min-width: 992px){
+    .authorized-user__info{
+        height: auto;
+    }
+    .catalog-sort__item.dropdown{
+        display: none;
+    }
+    .catalog-sort__item:nth-child(2){
+        display: list-item !important;
+        margin-left: 40px;
+    }
+
+}
+@media (max-width: 767px){
+    .store-list{
+        padding: 0 !important;
+    }
+    .store-list .current-store{
+        padding: 8px 0 8px 15px;
+    }
+    .store-list .current-store-wrapper.focused{
+        border-radius: 20px;
+        outline: none;
+    }
+    .basket-preview {
+        max-height: 520px;
+        top: calc(100% + 15px);
+    }
+    .bx-filter-parameters-box{
+        width: 100%;
+    }
+}
+
+/*----- .tyre-and-wheel ----------------------------------*/
+.tyre-and-wheel .form-select > select,
+.tyre-and-wheel .bx_filter_select_text,
+.bx_filter_select_popup ul {
+    color: #282f36;
+    max-height: 350px;
+    overflow-y:auto;
+}
+.bx_filter_select_popup ul li{
+    padding: 3px 0;
+}
+.bx_filter_select_popup ul li:hover{
+    color: #d4070e;
+}
+.tyre-and-wheel-specification {
+    margin-top: 20px;
+}
+.tyre-and-wheel-specification .item {
+    margin-top: 5px;
+}
+/*-------------------------------------------------*/

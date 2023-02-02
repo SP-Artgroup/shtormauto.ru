@@ -1,0 +1,18 @@
+h1{
+	line-height: 24px;
+}
+.text_center {text-align: center;}
+.content_copyright ul {margin: 0 0 0 30px;}
+.content_copyright ul li {padding:0 0 10px 0px;list-style: disc;}
+
+
+.content_copyright {line-height: 1.4;}
+.content_copyright ol {margin: 0 0 0 30px;padding: 0;}
+.content_copyright ol > li {margin:0;padding:0 0 7px 0px;list-style: decimal;}
+ul.disc{
+	padding-left: 20px;
+    margin-bottom: 10px;
+}
+ul.disc li{
+	list-style: disc !important;
+}

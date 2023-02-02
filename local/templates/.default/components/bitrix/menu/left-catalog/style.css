@@ -1,0 +1,81 @@
+.catalog-menu {
+  width: 100%;
+}
+
+.catalog-menu .catalog-menu-head {
+  font-size: 17px;
+  line-height: 26px;
+  padding-left: 10px;
+  color: #db4b40;
+  text-transform: uppercase;
+  border-bottom: 2px solid #cfcfcf;
+}
+
+.catalog-menu ul.root {
+  padding: 0 5px;
+  margin-top: 5px;
+}
+
+.catalog-menu li {
+  float: left;
+  width: 100%;
+}
+
+.catalog-menu ul.root li {
+  border-bottom: 1px dotted #ccc;
+}
+
+.catalog-menu ul.root li.parent {
+  padding-bottom: 5px;
+}
+
+.catalog-menu li a {
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+  text-decoration: none;
+  width: 100%;
+  float: left;
+}
+
+.catalog-menu li a:hover,
+.catalog-menu li a:active,
+.catalog-menu li a.selected {
+  color: #db4b40;
+}
+
+.catalog-menu ul.root li a.root-item {
+  padding: 7px 0;
+  padding-left: 15px;
+  background: url('images/menu-red-ar.png') 4% 50% no-repeat;
+}
+
+.catalog-menu ul.root li.parent a {
+  padding-bottom: 2px;
+  background-position: 4% 65%;
+}
+
+.catalog-menu ul.child {
+  padding-left: 25px;
+  display: none;
+}
+
+.catalog-menu ul.child.open {
+  display: block;
+}
+
+.catalog-menu ul.child li {
+  border: none;
+}
+
+.catalog-menu ul.child li a {
+  line-height: 18px;
+  color: #6e6e6e;
+  padding: 0;
+}
+
+.catalog-menu ul.child li a:hover,
+.catalog-menu ul.child li a:active,
+.catalog-menu ul.child li a.selected {
+  color: #db4b40;
+}

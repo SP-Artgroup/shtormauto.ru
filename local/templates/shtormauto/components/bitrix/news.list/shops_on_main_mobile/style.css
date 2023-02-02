@@ -1,0 +1,175 @@
+@media (max-width:767px) {
+	.all_address{
+		padding: 15px 0 20px !important;
+	}
+	.all_address h4{
+    margin: 5px 0 5px 30px !important;
+	}
+	.sub_title{
+		font-size: 18px;
+		line-height: 20px;
+		margin: 0 0 0 30px;
+		color: #282F36;
+	}
+	.contacts-sidebar__meta{
+		padding: 20px 20px 25px 30px !important;
+		margin-bottom: -25px;
+		border-bottom: unset !important;
+	}
+	.all_address__title{
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 3px;
+	}
+	.gps_link{
+		display: flex;
+		align-items: center;
+		color: #D4070E !important;
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 7px;
+	}
+	.gps_link::before{
+		content: "";		
+		margin-right: 3px;
+		width: 16px;
+		height: 16px;
+		background-image: url("image/ri_map-2-line.svg");
+		background-position: center;
+		background-size: contain;
+	}
+	.detail_link{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.number_btn{
+		background: #FFFFFF;
+		border: 1px solid #D4070E;
+		box-sizing: border-box;
+		border-radius: 20px;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		font-weight: bold;
+		font-size: 14px;
+		color: #D4070E !important;
+
+		min-height: 40px;
+		width: 200px;
+		max-width: 100%;
+
+		margin-top: 11px;
+		padding: 10px 23px;
+	}
+
+
+	.modal_view{
+		display: none;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		background-color: #fff;
+		z-index: 100000;
+		padding: 30px 15px 32px;
+	}
+	.modal_view.open{
+		display: block;
+	}
+	.modal_view .cancel{
+		position: absolute;
+    z-index: 100;
+    top: 17px;
+    right: 17px;
+    width: 17px;
+    height: 17px;
+    border: none;
+    cursor: pointer;
+		background-image: url(image/cancel.svg);
+
+	}
+
+	.modal__body{
+		padding: 30px 15px 32px;
+	}
+	.select-navigation__title{
+		display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 700;
+		font-size: 20px;
+    margin-bottom: 10px;
+	}
+	.select-navigation__title::before{
+		content: "";
+		width: 30px;
+		height: 30px;
+		background-image: url("image/location.svg");
+		background-position: center;
+		background-size: contain;
+		margin-right: 10px;
+	}
+	.select-navigation__address{
+		padding-left: 40px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	.select-navigation__buttons{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		font-size: 20px;
+	}
+	.select-navigation__item{
+		margin-bottom: 20px;
+	}
+	.select-navigation__item a{
+		font-size: 16px;
+    border: 1px solid #888;
+    color: #888;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 48px;
+    padding: 0 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 48px;
+    -webkit-transition: background-color .3s ease,border-color .3s ease;
+    transition: background-color .3s ease,border-color .3s ease;
+    width: 100%;
+	}
+	.select-navigation__hint{
+		font-size: 16px;
+    line-height: 1.4;
+    color: #888;
+	}
+	.location_icon{
+		width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: contain;
+    background-position: center;
+    display: block;
+		background-repeat: no-repeat;
+	}
+	.yandex_map__icon{
+		background-image: url("image/Yandex.Navigator-Logo.wine.svg");
+	}
+	.google_map__icon{
+		background-image: url("image/Google_Maps_icon_\(2020\).svg");
+	}
+	.two_gis_map__icon{
+		width: 40px;
+		background-image: url("image/2gis-seeklogo.com.svg");
+	}
+}

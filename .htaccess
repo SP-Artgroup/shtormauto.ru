@@ -1,0 +1,86 @@
+Options -Indexes
+ErrorDocument 404 /404.php
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine On
+
+	RewriteCond %{HTTPS} =off 
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+
+	#RewriteCond %{REQUEST_URI} ^/catalog/$
+	#RewriteRule ^.*$ /catalog/shiny/ [R=301,L]
+
+	RewriteCond %{REQUEST_URI} ^/catalog/_avtoshiny/(.*)$
+	RewriteRule ^.*$ /catalog/shiny/%1 [R=301,L]
+
+	# RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+	# RewriteRule ^index\.php$ https://shtormauto.ru/ [R=301,L]
+
+	# RewriteCond %{HTTP_HOST} ^www\.shtormauto\.ru [NC]
+	# RewriteRule ^(.*)$ https://shtormauto.ru/$1 [R=301,L]
+
+	RewriteCond %{REQUEST_URI} ^(.*)/$
+	RewriteRule .* - [L]
+	RewriteCond %{ENV:REDIRECT_STATUS} 200
+	RewriteRule .* - [L]
+	RewriteCond %{REQUEST_METHOD} =GET
+	RewriteCond %{REQUEST_URI} ^(.*)/index.php$
+	RewriteRule ^(.*)$ %1/ [R=301,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+	RewriteRule .*  -  [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+</IfModule>
+
+<IfModule mod_alias.c>
+	Redirect 301 /brands/55242/ https://shtormauto.ru/brands/motul/
+	Redirect 301 /brands/55249/ https://shtormauto.ru/brands/liquimoly/
+	Redirect 301 /brands/55251/ https://shtormauto.ru/brands/bridgestone/
+	Redirect 301 /brands/55317/ https://shtormauto.ru/brands/goodride/
+	Redirect 301 /brands/55318/ https://shtormauto.ru/brands/cooper/
+	Redirect 301 /brands/55319/ https://shtormauto.ru/brands/hankook/
+	Redirect 301 /brands/55320/ https://shtormauto.ru/brands/nankang/
+	Redirect 301 /brands/55321/ https://shtormauto.ru/brands/shell/
+	Redirect 301 /brands/55322/ https://shtormauto.ru/brands/castrol/
+	Redirect 301 /brands/55323/ https://shtormauto.ru/brands/bosch/
+	Redirect 301 /brands/59721/ https://shtormauto.ru/brands/toyo/
+	Redirect 301 /brands/59722/ https://shtormauto.ru/brands/federal/
+	Redirect 301 /brands/59723/ https://shtormauto.ru/brands/nokiang/
+	Redirect 301 /brands/59725/ https://shtormauto.ru/brands/panasonic/
+	Redirect 301 /brands/59726/ https://shtormauto.ru/brands/energizer/
+	Redirect 301 /brands/59727/ https://shtormauto.ru/brands/total/
+	Redirect 301 /brands/266402/ https://shtormauto.ru/brands/yuasa/
+	Redirect 301 /brands/266404/ https://shtormauto.ru/brands/maxxis/
+	Redirect 301 /brands/266406/ https://shtormauto.ru/brands/alpha/
+	Redirect 301 /brands/266407/ https://shtormauto.ru/brands/matador/
+	Redirect 301 /brands/266408/ https://shtormauto.ru/brands/kama/
+	Redirect 301 /brands/266409/ https://shtormauto.ru/brands/viatti/
+	Redirect 301 /brands/266410/ https://shtormauto.ru/brands/pioneer/
+	Redirect 301 /brands/266411/ https://shtormauto.ru/brands/shtorm/
+	Redirect 301 /brands/266548/ https://shtormauto.ru/brands/micro/
+	Redirect 301 /brands/266549/ https://shtormauto.ru/brands/continental/
+	Redirect 301 /brands/316461/ https://shtormauto.ru/brands/goodyear/
+	Redirect 301 /brands/498419/ https://shtormauto.ru/brands/gs-oil-kixx/
+	Redirect 301 /brands/498875/ https://shtormauto.ru/brands/kordiant/
+	Redirect 301 /brands/498876/ https://shtormauto.ru/brands/lenso/
+	Redirect 301 /brands/498877/ https://shtormauto.ru/brands/k-k-kik/
+</IfModule>
+
+<IfModule mod_mime.c>
+	AddType application/x-httpd-php .ico
+</IfModule>
+
+<IfModule mod_dir.c>
+	DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresByType image/jpeg "access plus 3 day"
+	ExpiresByType image/gif "access plus 3 day"
+</IfModule>

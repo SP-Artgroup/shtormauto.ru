@@ -1,0 +1,104 @@
+.sprite::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../img/sprite.png);
+}
+
+.sprite-basket:hover::before {
+    background-position: 0px 0px;
+}
+.sprite-basket::before {
+    background-position: -42px 0px;
+    width: 42px;
+    height: 40px;
+}
+.sprite-calendar::before {
+    background-position: 0px -93px;
+    width: 15px;
+    height: 16px;
+}
+.sprite-close-enroll::before {
+    background-position: -111px -61px;
+    width: 11px;
+    height: 11px;
+}
+.sprite-close::before {
+    background-position: -84px 0px;
+    width: 27px;
+    height: 27px;
+}
+.sprite-email::before {
+    background-position: -31px -93px;
+    width: 17px;
+    height: 14px;
+}
+.sprite-footer-arrow::before {
+    background-position: 0px -80px;
+    width: 28px;
+    height: 13px;
+}
+.sprite-kabinet:hover::before {
+    background-position: -84px -27px;
+}
+.sprite-kabinet::before {
+    background-position: -84px -45px;
+    width: 18px;
+    height: 18px;
+}
+.sprite-kabinet2:hover::before {
+    background-position: -111px -16px;
+}
+.sprite-kabinet2::before {
+    background-position: -111px 0px;
+    width: 13px;
+    height: 16px;
+}
+.sprite-lupa:hover::before {
+    background-position: -40px -40px;
+}
+.sprite-lupa::before {
+    background-position: 0px -40px;
+    width: 40px;
+    height: 40px;
+}
+.sprite-name::before {
+    background-position: -84px -63px;
+    width: 17px;
+    height: 16px;
+}
+.sprite-next::before {
+    background-position: -111px -72px;
+    width: 6px;
+    height: 11px;
+}
+.sprite-pass::before {
+    background-position: -15px -93px;
+    width: 16px;
+    height: 15px;
+}
+.sprite-prev::before {
+    background-position: -117px -72px;
+    width: 6px;
+    height: 11px;
+}
+.sprite-product-slide-next::before {
+    background-position: -111px -83px;
+    width: 6px;
+    height: 11px;
+}
+.sprite-product-slide-prev::before {
+    background-position: -117px -83px;
+    width: 6px;
+    height: 11px;
+}
+.sprite-tel::before {
+    background-position: -111px -32px;
+    width: 11px;
+    height: 18px;
+}
+.sprite-textarea::before {
+    background-position: -111px -50px;
+    width: 13px;
+    height: 11px;
+}

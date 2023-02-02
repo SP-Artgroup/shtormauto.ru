@@ -1,0 +1,88 @@
+.store-list {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.store-list .select-store {
+    width: 100%;
+    font: 11px Tahoma, sans-serif;
+    position: relative;
+    box-sizing: border-box;
+    color: #999;
+}
+
+.store-list .current-store-wrapper {
+    box-sizing: border-box;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    line-height: 28px;
+    padding: 0 20px 0 10px;
+    cursor: pointer;
+    background: #fff;
+    outline: none;
+}
+
+.store-list .current-store-wrapper.focused {
+    box-shadow: 0 0 3px 1px #08a4ff;
+    color: #5fb1e1;
+    border-color: transparent;
+}
+
+.store-list .current-store {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.store-list .current-store::after {
+    content: '';
+    display: inline-block;
+    border-bottom: none;
+    border-top: 5px solid #999;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 12px;
+    right: 7px;
+}
+
+.store-list .store-options {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    box-sizing: border-box;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    padding: 10px 0 10px;
+    line-height: 11px;
+    width: 100%;
+    background: #fff;
+    z-index: 1;
+}
+
+.store-list .select-store.open .current-store-wrapper {
+    z-index: 4;
+}
+
+.store-list .select-store.open .store-options {
+    display: block;
+    z-index: 3;
+}
+
+.store-list .store-option {
+    padding: 0px 10px 10px;
+    cursor: pointer;
+}
+
+.store-list .store-option:last-child {
+    padding-bottom: 0;
+}
+
+.store-list .store-option:hover {
+    color: #db4b40;
+}

@@ -1,0 +1,57 @@
+div.catalog-section{
+	margin-top: 10px;
+    color: #666666;
+}
+div.catalog-section table td {
+    font-size: 11px;
+    line-height: 14px;
+    color: #6e6e6e;
+	padding-left:20px;
+	padding-top:15px;
+}
+div.catalog-section table td.npl{
+  padding-left: 0;
+}
+
+div.catalog-section table td a{
+  font-size: 13px;
+  color: #db4b40;
+  line-height: 18px;
+}
+div.catalog-section .catalog-price{
+  font-weight: bold;
+  color: #000;
+}
+div.catalog-section .sort-block{
+  float: right;
+  height: 14px;
+  margin-top: -15px;
+}
+div.catalog-section .sort-block span{
+  float: left;
+  font-size: 12px;
+  color: #6e6e6e;
+  line-height: 14px;
+  margin-right: 5px;
+}
+
+div.catalog-section .sort-block a.sort{
+  width: 14px;
+  height: 10px;
+  float: left;
+}
+div.catalog-section .sort-block a.sort.asc{
+  background: url('images/sort-asc.png') top left no-repeat;
+  margin-top: 2px;
+}
+div.catalog-section .sort-block a.sort.desc{
+  background: url('images/sort-desc.png') top left no-repeat;
+  margin-top: 4px;
+}
+div.catalog-section .brand-wrap{
+  float: left;
+  width: 140px;
+  height: 90px;
+  background: url('images/brand-wrap.png') top left no-repeat;
+  margin: 0 10px 5px 0;
+}

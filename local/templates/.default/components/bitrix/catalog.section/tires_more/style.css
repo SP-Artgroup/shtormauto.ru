@@ -1,0 +1,89 @@
+h1 {
+  line-height: 22px;
+}
+
+.similar-products-list {
+  margin-top: 10px;
+  color: #666666;
+}
+
+.similar-products-list table {
+  border-collapse: collapse;
+}
+
+.similar-products-list table th {
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+  padding: 7px;
+  background: #ebebeb;
+  border: solid 1px #bdbdbd;
+}
+
+.similar-products-list table td {
+  font-size: 11px;
+  line-height: 14px;
+  color: #6e6e6e;
+  padding: 7px;
+}
+
+.similar-products-list table td a {
+  font-size: 13px;
+  color: #db4b40;
+  line-height: 18px;
+}
+
+.similar-products-list .td-buy-btn {
+  text-align: center;
+}
+
+.similar-products-list .catalog-price {
+  font-weight: bold;
+  color: #000;
+}
+
+.similar-products-list .sort-block {
+  float: right;
+  height: 14px;
+  margin-top: 5px;
+}
+
+.similar-products-list .sort-block span {
+  float: left;
+  font-size: 12px;
+  color: #6e6e6e;
+  line-height: 14px;
+  margin-right: 5px;
+}
+
+.similar-products-list .sort-block a.sort {
+  width: 14px;
+  height: 10px;
+  float: left;
+}
+
+.similar-products-list .sort-block a.sort.asc {
+  background: url('images/sort-asc.png') top left no-repeat;
+  margin-top: 2px;
+}
+
+.similar-products-list .sort-block a.sort.desc {
+  background: url('images/sort-desc.png') top left no-repeat;
+  margin-top: 4px;
+}
+
+.similar-products-list .brand-wrap {
+  float: left;
+  width: 140px;
+  height: 90px;
+  background: url('images/brand-wrap.png') top left no-repeat;
+  margin: 0 10px 5px 0;
+}
+
+.similar-products-list .similar-products-store-list {
+  position: relative;
+}
+
+.similar-products-list .similar-products-store-list .store-list {
+  width: 100%;
+}

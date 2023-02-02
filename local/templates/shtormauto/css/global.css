@@ -1,0 +1,61 @@
+
+.small-img-border {
+    text-align: center;
+    border: 1px solid rgba(207, 207, 207, 0.5);
+    border-bottom: 2px solid rgba(207, 207, 207, 0.8);
+    border-top: none;
+    border-radius: 5px;
+}
+
+.buy-error-message {
+    display: none;
+    position: absolute;
+    /*top: -75px;*/
+    left: 0;
+    bottom: 40px;
+    background: #fff;
+    border: 1px solid #db4b40;
+    color: #db4b40;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 1px 1px 3px 0px #9b9696;
+}
+
+.buy-btn {
+    display: block;
+    width: 100%;
+    height: 33px;
+    border: 0;
+    cursor: pointer;
+    font: 13px/33px Tahoma;
+    text-align: center;
+    color: #fff;
+    margin: 7px 0 0 0;
+    border-radius: 4px;
+    background: url(../images_new/bg_pokupka.png) repeat-x 0 0;
+}
+
+.buy-btn:hover {
+    filter: brightness(110%);
+    text-decoration: none;
+    color: #fff;
+}
+
+.buy-btn span {
+    padding: 0px 10px 0 28px;
+    background: url(../images_new/ico_pokupka.png) no-repeat 0 0;
+}
+
+.buy-btn-small {
+    background: url(../images_new/button_pokupka.png) no-repeat 0 0;
+    display: inline-block;
+    border: none;
+    width: 23px;
+    height: 27px;
+    cursor: pointer;
+    text-decoration: none;
+}

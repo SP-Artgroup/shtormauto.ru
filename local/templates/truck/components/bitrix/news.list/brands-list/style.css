@@ -1,0 +1,15 @@
+.brands-bg{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px 0;
+}
+@media(max-width: 767px){
+    .brands-bg{
+       flex-wrap: wrap;
+    }
+    .brand-item{
+        width: 33%;
+        text-align: center;
+    }
+}
