@@ -232,7 +232,7 @@ class ShtormautoEvents
 
 		$arFields['PAY_SYSTEM_NAME'] = $paymentSystemName;
 		$arFields['ORDER_USER']      .= '. Дополнительная информация: ' . $order->getField('ADDITIONAL_INFO');
-		if(in_array($paymentSystemId, array(33,38,39))){
+		if(in_array($paymentSystemId, array(33,39,40,41))){
 			$key = explode('access=', $arFields['ORDER_PUBLIC_URL']);
 			$arFields['PAY_LINK'] = 'Для оплаты заказа перейдите по <a href="http://'.SITE_SERVER_NAME.'/personal/order/payment/?ORDER_ID='.$arFields['ORDER_ID'].'&HASH='.$key[1].'">ссылке</a>';
 		}
