@@ -27,7 +27,7 @@ Loader::includeModule('iblock');
 $isTireSection = (in_array($arResult['VARIABLES']['SECTION_CODE'], SPCatalog::getTireSectionsCodes()) || $GLOBALS["page"][2] == "shiny");
 
 if ($isTireSection) {
-    if (0) {
+    if (1) {
         // Сначала летние
         $arParams['ELEMENT_SORT_FIELD'] = 'PROPERTY_SEZONNOST';
         $arParams['ELEMENT_SORT_ORDER'] = 'desc';        

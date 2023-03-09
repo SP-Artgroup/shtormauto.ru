@@ -665,3 +665,10 @@ a.catalog-sort__link.current {
     margin-top: 5px;
 }
 /*-------------------------------------------------*/
+.slick-slide img {
+    width: auto;
+}
+
+.product-detail-image-container {
+    width: 462px;
+}

@@ -99,7 +99,7 @@ unset($item['DISPLAY_PROPERTIES']['FREE_REPAIR']);
             <!-- <div class="show-block btn" ><span>Двойная гарантия Bridgestone</span></div> -->
         <?//endif?>
         <?if($arParams['UF_UNCONDITIONAL_GUARANT'] == 'Y'):?>
-            <div class="show-block btn" ><a style="color: red;" href="https://shtormauto.ru/news/besplatnyy_shinomontazh_cordiant22/" target="_blank"><span>Безусловная гарантия</span></a></div>
+            <div class="show-block btn" ><a style="color: red;" href="https://shtormauto.ru/news/shinomontezh_v_podarok_za_pokupku_komplekt­a_shin_cordiant23/" target="_blank"><span>Безусловная гарантия</span></a></div>
         <?endif?>
  
     </div>

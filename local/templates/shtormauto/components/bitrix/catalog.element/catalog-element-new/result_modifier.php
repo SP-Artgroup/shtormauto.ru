@@ -194,7 +194,7 @@ $models = CIBlockElement::GetList(Array(), $modelsFilter, false, false, $modelsS
 
 
 while($modelsElements = $models->GetNext()) {
-	if(str_contains($arResult["NAME"], $modelsElements["NAME"])){
+	if(str_contains($arResult["NAME"], $modelsElements["NAME"]) && !str_contains($arResult["NAME"], 'BFGOODRICH')){
 		$arResult["DESCRIPTION_FILE"] = $modelsElements["PROPERTY_FILES_WITH_DESCRIPTION_VALUE"];		
 
 		if(!empty($modelsElements['PROPERTY_VIDEO_VALUE']) && $modelsElements['PROPERTY_VIDEO_VALUE'] != ''){
